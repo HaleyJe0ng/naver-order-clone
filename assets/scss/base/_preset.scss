@@ -7,6 +7,18 @@
     text-indent: -9999px;
 }
 
+.scroll-x{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; //Hide scrollbar in IE
+    scrollbar-width: none; //Hide scrollber in Firefox
+    &::-webkit-scrollbar{
+        display: none; //Hide scrollbar in Chrome
+    }
+}
+
 .mgt0{
     margin-top: 0px;
 }

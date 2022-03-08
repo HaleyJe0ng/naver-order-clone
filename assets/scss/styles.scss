@@ -1,6 +1,7 @@
 // abstracts
 @import "./abstracts/variables_color";
 @import "./abstracts/variables";
+@import "./abstracts/mixin_common";
 
 // base
 @import "./base/reset";
@@ -8,5 +9,6 @@
 
 // components
 @import "./components/order_type";
+@import "./components/header_area";
 
 // pages
