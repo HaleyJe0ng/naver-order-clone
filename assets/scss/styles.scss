@@ -1,6 +1,12 @@
+// abstracts
 @import "./abstracts/variables_color";
 @import "./abstracts/variables";
 
+// base
 @import "./base/reset";
 @import "./base/preset";
 
+// components
+@import "./components/order_type";
+
+// pages
