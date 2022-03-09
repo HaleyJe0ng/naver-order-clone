@@ -581,7 +581,6 @@ textarea::-webkit-outer-spin-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 310px;
 }
 
 .recent-order-area .recent-menu-list .recent-menu-item {
